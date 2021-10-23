@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend for portfolio",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Mensah Oko Bright",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10",
+    "request": "^2.88.2"
+  }
+}

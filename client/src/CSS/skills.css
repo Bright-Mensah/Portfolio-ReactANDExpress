@@ -1,0 +1,231 @@
+ .skills{
+    overflow: hidden;
+    background-image: url(../images/arif-riyanto-1DRq1ZsE2N0-unsplash.jpg);
+    background-position:center;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    
+    
+}
+.skills > .details{
+    margin: 80px;
+    color: #fff;
+}
+.skills >h1{
+    color: #fff;
+    margin: 60px;
+    height:2px 
+
+}
+
+
+progress{
+    border: none;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 180px;
+}
+progress::-webkit-progress-value{
+    background-color: #333;
+}
+
+progress::-webkit-progress-bar{
+    background-color: gold;
+}
+.details{
+   
+    text-align: start;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-flow:row wrap;
+   
+}
+
+.details > .myskills{
+    margin: 0 0 0 50px;
+    height: 100px;
+}
+
+.details > .work{
+    margin: 40px 0 0 150px;
+    height: 400px;
+}
+
+.work >button{
+    margin-left: 20px;
+    border: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: #000;
+  padding: 5px;
+  cursor: pointer;
+
+}
+.work >button:hover{
+    color: #000;
+    background: #fff;
+}
+/* phones with pixels from 200 to 299 */
+@media screen and (min-width:200px) and (max-width:299px) {
+  .skills{
+      background-repeat: no-repeat;
+  }
+  
+    .skills > h1{
+        font-size: 1.3em;
+    }
+    
+    .skills > .details  {
+        margin: 50px;   
+    }
+    .details > .myskills{
+        margin: 0;
+    }
+
+    progress{
+        width: 220px;
+    }
+    .myskills >h1{
+        font-size: 1.3em;
+    }
+     .details > .work{
+        margin: 40px 0 0 5px;
+
+    } 
+}
+
+/* pixels from 300 to 350  */
+@media screen and (min-width:300px) and (max-width:350px) {
+    .skills{
+        background-repeat: no-repeat;
+    }
+    
+     .skills >h1{
+       white-space: nowrap;
+       font-size: 1.3em;
+   }
+  .skills > .details  {
+       margin: 50px;   
+   }
+
+   .details > .myskills{
+      margin: 0;
+   }
+   
+
+   progress{
+    border: none;
+    width: 250px;
+    height: 20px; 
+    /* margin-bottom: 180px; */
+} 
+ .myskills >h1{
+    font-size: 1.3em;
+} 
+ .details > .work{
+    margin: 40px 0 0 20px;
+    height: 400px;
+} 
+
+}
+
+
+
+/* phones with pixels from 360 to 400 */
+
+@media screen and (min-width:360px) and (max-width:400px){
+    .skills{
+        background-repeat: no-repeat;
+    }
+    
+
+  
+  .skills >h1{
+       white-space: nowrap;
+       font-size: 1.3em;
+   }
+   .skills > .details  {
+    margin: 0;   
+}
+.details > .work{
+    margin: 40px 0 0 100px;
+    height: 400px;
+}
+.skills{
+    height: 4300px;
+}
+
+}
+/* phones with pixels from 400 to 510 */
+@media screen and (min-width:400px) and (max-width:510px) {
+    .skills >h1{
+        white-space: nowrap;
+        font-size: 1.3em;
+    }
+     .skills > .details  {
+        margin: 30px;   
+    } 
+   
+    .details > .work{
+        margin: 40px 0 0 80px;
+    }
+    .skills{
+        height: 100%
+    }
+    
+}
+
+
+
+
+/* phones with pixels from 520 to 550 */
+
+@media screen and (min-width:520px) and (max-width:550px) {
+    .skills{
+        background-repeat: no-repeat;
+    }
+    
+   
+   
+    .skills >h1{
+        white-space: nowrap;
+        font-size: 1.3em;
+    }
+     .skills > .details  {
+        margin: 100px;   
+    } 
+   
+    .details > .work{
+        margin: 40px 0 0 100px;
+    }
+    
+}
+
+
+/* ipad and tablet with pixels from 700 to 900 */
+@media screen and (min-width:700px) and (max-width:900px) {
+    .skills{
+        background-repeat: no-repeat;
+    }
+    
+   
+    progress{
+        width: 600px;
+    }
+  .details >.work{
+      margin-left: 70px;
+      margin-top: 60px;
+  }
+}
+/* ipad and tablet with pixles from 1024 to 1200 */
+@media screen and (min-width:1024px) and (max-width:1200px) {
+   
+    progress{
+        width: 800px;
+    }
+}
+

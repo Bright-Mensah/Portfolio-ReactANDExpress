@@ -36,6 +36,10 @@ try {
   console.log("error with database");
 }
 
+app.get("/", (req, res) => {
+  res.send("<h1>Welcome to Portfolio backend</h1>");
+});
+
 try {
   app.post("/contact", async (req, res) => {
     try {

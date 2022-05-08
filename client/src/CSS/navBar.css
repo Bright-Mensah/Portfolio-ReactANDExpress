@@ -1,0 +1,41 @@
+/* phones up to 768px should hide the main nav bar */
+@media screen and (max-width:768px) {
+    .nav{
+        display: none;
+    }
+    
+}
+
+/* tablets and laptops from 768px  should show main nav bar */
+
+@media screen and (min-width:768px) {
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+        background:#333;
+        top:0;
+        width: 100%;
+        z-index: 100;
+        position:fixed;
+    }
+    .nav-ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .nav-li{
+        padding-right: 30px;
+        list-style: none;
+        color:#fff;
+    }
+    .nav-li:hover{
+        color:gold;
+        cursor: pointer;
+    }
+    .nav-Links{
+        text-decoration: none;
+    } 
+}
+
+

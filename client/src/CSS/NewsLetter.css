@@ -1,0 +1,122 @@
+.subscription-page{
+    background-image: url("../images/news-letter.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    color: black;
+    overflow: hidden;
+    /* height: 100%; */
+   
+
+}
+.message{
+    font-size: 1.3em;
+    border-radius: 2.5rem;
+    
+    
+}
+
+/* phones with pixels from 200 to 299 */
+@media screen and (min-width:200px) and (max-width:299px){
+   .subscription-page{
+       height: 100%;
+       background-repeat: no-repeat;
+       
+   }
+
+   .message{
+       font-size: 0.7em;
+       white-space: nowrap;
+       margin:0 0 0 0 ;
+   }
+   .subscription-page >h2{
+    margin-top: 150px;
+}
+}
+/* pixels from 300 to 350 */
+@media screen and (min-width:300px) and (max-width:350px) {
+.subscription-page{
+    height: 100%;
+}
+.message{
+    font-size: 0.73em;
+    white-space: nowrap;
+}
+
+.subscription-page >h2{
+    margin-top: 200px;
+}
+
+/* phones with pixels from 360 to 400 */
+}@media screen and (min-width:360px) and (max-width:400px){
+.subscription-page{
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.message{
+    white-space: nowrap;
+    font-size: 1.0em;
+    margin: 0;
+}
+.subscription-page >h2{
+    margin-top: 150px;
+}
+
+}
+/* phones with pixels from 400 to 510 */
+@media screen and (min-width:400px) and (max-width:510px){
+.subscription-page{
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.message{
+    font-size: 0.9em;
+   
+}
+.subscription-page >h2{
+    margin-top: 150px;
+}
+}
+
+@media screen and (min-width:520px) and (max-width:550px){
+.subscription-page{
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.message{
+    font-size: 1.0em;
+}
+.subscription-page >h2{
+    margin-top: 150px;
+}
+}
+@media screen and (min-width:768px) and (max-width:1200px){
+.subscription-page{
+    height: 100vh;
+    background-repeat: no-repeat;
+   
+}
+
+.message{
+    font-size: 1.0em;
+    margin: 0 150px 0 150px;
+    
+    
+}
+.subscription-page >h2{
+    margin-top: 150px;
+}
+
+
+}
+
+@media screen and (min-width:1280px) {
+    .subscription-page{
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+    .subscription-page >h2{
+        margin-top: 150px;
+    }
+}
